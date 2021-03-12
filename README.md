@@ -5,6 +5,16 @@ There are 3 channels:
 - Music
 - Sport
 
+# APIS:
+
+- /api/get_messages => called as GET to fetch messages
+- '/api/submit_message'  => called as POST 
+
+# URLS:
+/Homepage
+- /Finance
+- /Music
+- /Sport
 
 # Tech used:
 
@@ -13,9 +23,9 @@ There are 3 channels:
 - Express
 - TypeScript
 
-# NPM command required:
+# NPM command required throughout the project:
 
-- Npm init -> create package
+- Npm init 
 
 - Node install
 
@@ -33,13 +43,4 @@ There are 3 channels:
 
 - npm install axios
 
-# APIS:
 
-- /api/get_messages => called as GET to fetch messages
-- '/api/submit_message'  => called as POST 
-
-# URLS:
-/Homepage
-- /Finance
-- /Music
-- /Sport
